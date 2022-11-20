@@ -391,5 +391,6 @@ footer a {
 @media screen and (max-width:400px) {
     .contenedor {
         width: 100%;
+        margin-left: 2px;
     }
 }
