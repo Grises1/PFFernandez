@@ -32,20 +32,10 @@ nav ul.horizontal li a{
 
 
 
+.main {
+    width: 70%;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 section h1 {
@@ -83,7 +73,7 @@ section table {
     border: none;
     border-spacing: 30px;
     background-color: #c9ada7;
-    margin-left: 400px;
+    margin-left: 20%;
     
 
 }
@@ -115,7 +105,10 @@ table td a{
 }
 
 .contenedor {
-    width: 100%;
+    width: 80%;
+    margin:0 auto;
+    overflow:hidden;
+    max-width: 1000px;
 }
 
 .conteiner-1{
@@ -209,11 +202,11 @@ table td a{
 
 .container-fotos { /*  G R I D S  */
     display: grid;
-    width: 100%;
+    width: 90%;
     grid-template-columns: repeat(3, 400px);
     grid-template-rows: auto;
-    row-gap: 10px;
-    column-gap: 15px;
+    row-gap: 5px;
+    column-gap: 5px;
     justify-content: center;
     justify-items: center;
     grid-template-areas:
@@ -395,3 +388,8 @@ footer a {
 }
 
 
+@media screen and (max-width:400px) {
+    .contenedor {
+        width: 100%;
+    }
+}
