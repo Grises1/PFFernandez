@@ -135,7 +135,14 @@ header section h1 {
     column-gap: 5px;
     justify-content: center;
     justify-items: center;
-    grid-template-areas: "foto-1 foto-2 foto-3"  "foto-4 foto-5 foto-6" "foto-7 foto-8 foto-9" "foto-10 foto-11 foto-12" "foto-13 foto-14 foto-15" "foto-16 foto-17 foto-18" "foto-19 foto-20 foto-21" "foto-22 foto-23 foto-24"; }
+    grid-template-areas: "foto-1 foto-2 foto-3" 
+ "foto-4 foto-5 foto-6"
+ "foto-7 foto-8 foto-9"
+ "foto-10 foto-11 foto-12"
+ "foto-13 foto-14 foto-15"
+ "foto-16 foto-17 foto-18"
+ "foto-19 foto-20 foto-21"
+ "foto-22 foto-23 foto-24"; }
   .main .foto {
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -222,7 +229,4 @@ footer {
     color: #f2e9e4;
     font-family: monospace; }
 
-@media screen and (max-width: 400px) {
-  .contenedor {
-    width: 100%;
-    margin-left: 2px; } }
+
