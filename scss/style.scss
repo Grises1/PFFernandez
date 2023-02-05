@@ -1,0 +1,391 @@
+*{
+    margin-left: 20px;
+    list-style: none;
+    background-color: #f2e9e4;
+    text-decoration: none;
+    font-style: normal;
+    }
+
+    section div img {
+        margin: 0;
+        padding: 0;
+        margin-right: 0;
+    }
+
+    header{
+
+     nav ul.horizontal{
+        margin:0;
+        padding:0;
+        color: #f2e9e4;
+        background-color: #4a4e69;
+        font-family:monospace;
+        font-size: 20px;
+        text-align: center;
+    
+        li {
+            display:block;
+            float:left;
+            padding:0 10px;
+            color: #f2e9e4;
+            text-decoration: none;
+            background-color: #4a4e69;
+            font-family: monospace;
+            font-size: 20px;
+        }
+    
+    }
+
+    section h1 {
+        color: #4a4e69;
+        font-style: italic;
+        font-size: 50px;
+    
+    }
+    
+    }
+
+
+    .main {
+        width: 70%;
+    
+        
+
+        section p {
+            color: black;
+            
+        
+        }
+
+        section h2 {
+            color: #4a4e69;
+            
+           }
+
+           section h3 {
+            color: #4a4e69;
+            
+            
+            }
+
+            section.contacto {
+                color:rgb(0, 0, 0);
+                
+            }
+
+            section table {
+                color: rgb(0, 0, 0);
+                border: none;
+                border-spacing: 30px;
+                background-color: #c9ada7;
+                margin-left: 20%;
+                
+            
+        
+
+            td strong {
+                background-color: #c9ada7;
+                font-family: monospace;
+            } 
+
+            tr {
+                background-color: #c9ada7;
+                text-decoration:none;
+                font-family: monospace;
+                }
+
+            td {
+                 background-color: #c9ada7;
+                 text-decoration: none;
+                 font-family: monospace;
+                    
+                }td a{
+                      background-color: #c9ada7; 
+                      text-decoration: none;
+                      color:black;
+                      font-style: italic;
+                    font-family: monospace;
+                    }
+
+                }
+    .contenedor {
+                width: 80%;
+                margin:0 auto;
+                overflow:hidden;
+                max-width: 1000px;
+                 
+                
+            
+            }
+
+        .container-1    {
+                display:grid;
+                grid-template-rows: 1fr 1fr 1fr;
+                width: 80%;
+                
+            }
+            
+            .info {
+                background-color: rgb(230,173,173);
+                border-radius: 10px;
+                height: 70px;
+                width: 800px;
+                color:black;
+                
+                b {
+                    background-color: rgb(230,173,173);
+                    color: black;
+                
+                }
+
+                ul{
+                    background-color: rgb(230,173,173);
+                    color: black;
+                    border-radius: 10px;
+                    width: auto;
+                
+                }
+
+                ul li{
+                    background-color: rgb(230,173,173);
+                    color: black;
+                    border-radius: 10px;
+                    width: auto;
+                
+                }
+
+
+            }          
+        
+
+            .puntos-turisticos {
+                background-color: rgb(186,230,173);
+                border-radius: 15px;
+                color:black;
+           
+                b {
+                    background-color: rgb(186,230,173);
+                    color:black;
+                }
+          
+                ul {
+                    background-color: rgb(186,230,173);
+                    border-radius: 15px;
+                    color:black;
+                }
+                
+                ul li {
+                    background-color: rgb(186,230,173);
+                    border-radius: 15px;
+                    color:black;
+                }
+
+            
+
+            }
+
+
+            .gastronomia {
+                background-color: rgb(173, 206, 230);
+                border-radius: 15px;
+                width: 500px;
+                color:black;
+
+                ul {
+                    background-color: rgb(173, 206, 230);
+                    color:black;
+                }
+
+                ul li {
+                    background-color: rgb(173, 206, 230);
+                    color:black;
+                }
+
+         
+            }
+
+
+            .musica {
+                background-color: lightblue;
+                color: black;
+            }
+
+            .imgGallery h2 {
+                text-align: center;
+            }
+    
+          
+            .container-fotos { /*  G R I D S  */
+                display: grid;
+                width: 90%;
+                grid-template-columns: repeat(3, 400px);
+                grid-template-rows: auto;
+                row-gap: 5px;
+                column-gap: 5px;
+                justify-content: center;
+                justify-items: center;
+                grid-template-areas:
+                "foto-1 foto-2 foto-3" 
+                "foto-4 foto-5 foto-6"
+                "foto-7 foto-8 foto-9"
+                "foto-10 foto-11 foto-12"
+                "foto-13 foto-14 foto-15"
+                "foto-16 foto-17 foto-18"
+                "foto-19 foto-20 foto-21"
+                "foto-22 foto-23 foto-24"
+           
+
+        
+                
+            }
+
+            .foto {
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                padding: 5px;
+                width: 400px;
+            } 
+
+            .foto-1 {
+                grid-area: foto-1;
+                transition: transform 700ms 0s;
+                
+            }
+            
+            
+            .foto-2 {
+                grid-area: foto-2;
+                transition: transform 700ms 0s;
+            }
+            
+            .foto-3 {
+                grid-area: foto-3;
+                transition: transform 700ms 0s;
+            }
+            
+            .foto-4 {
+                grid-area: foto-4;
+                transition: transform 700ms 0s;
+            }
+            
+            .foto-5 {
+                grid-area: foto-5;
+                transition: transform 700ms 0s;
+            }
+            
+            .foto-6 {
+                grid-area: foto-6;
+                transition: transform 700ms 0s;
+            }
+            
+            .foto-7 {
+                grid-area: foto-7;
+                transition: transform 700ms 0s;
+            }
+            
+            .foto-8 {
+                grid-area: foto-8;
+                transition: transform 700ms 0s;
+            }
+            
+            .foto-9 {
+                grid-area: foto-9;
+                transition: transform 700ms 0s;
+            }
+            
+            .foto-10 {
+                grid-area: foto-10;
+                transition: transform 700ms 0s;
+            }
+            
+            .foto-11 {
+                grid-area: foto-11;
+                transition: transform 700ms 0s;
+            }
+            
+            .foto-12 {
+                grid-area: foto-12;
+                transition: transform 700ms 0s;
+            }
+            
+            .foto-13 {
+                grid-area: foto-13;
+                transition: transform 700ms 0s;
+            }
+            
+            .foto-14 {
+                grid-area: foto-14;
+                transition: transform 700ms 0s;
+            }
+            
+            .foto-15 {
+                grid-area: foto-15;
+                transition: transform 700ms 0s;
+            }
+            
+            .foto-16 {
+                grid-area: foto-16;
+                transition: transform 700ms 0s;
+            }
+            
+            .foto-17 {
+                grid-area: foto-17;
+                transition: transform 700ms 0s;
+            }
+            
+            .foto-18 {
+                grid-area: foto-18;
+                transition: transform 700ms 0s;
+            }
+            
+            .foto-19 {
+                grid-area: foto-19;
+                transition: transform 700ms 0s;
+            }
+            
+            .foto-20 {
+                grid-area: foto-20;
+                transition: transform 700ms 0s;
+            }
+            
+            .foto-21 {
+                grid-area: foto-21;
+                transition: transform 700ms 0s;
+            }
+            
+            .foto-22 {
+                grid-area: foto-22;
+                transition: transform 700ms 0s;
+            }
+            
+            .foto-23 {
+                grid-area: foto-23;
+                transition: transform 700ms 0s;
+            }
+            
+            .foto-24 {
+                grid-area: foto-24;
+                transition: transform 700ms 0s;
+            }
+
+        }
+
+    footer {
+        background-color: #4a4e69;
+   
+   
+        a {
+            background-color: #4a4e69;
+            text-decoration: none;
+            color: #f2e9e4;
+            font-family: monospace;
+        
+        }
+    }
+
+    @media screen and (max-width:400px) {
+        .contenedor {
+            width: 100%;
+            margin-left: 2px;
+        }
+    }

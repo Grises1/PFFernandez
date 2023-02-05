@@ -1,0 +1,228 @@
+* {
+  margin-left: 20px;
+  list-style: none;
+  background-color: #f2e9e4;
+  text-decoration: none;
+  font-style: normal; }
+
+section div img {
+  margin: 0;
+  padding: 0;
+  margin-right: 0; }
+
+header nav ul.horizontal {
+  margin: 0;
+  padding: 0;
+  color: #f2e9e4;
+  background-color: #4a4e69;
+  font-family: monospace;
+  font-size: 20px;
+  text-align: center; }
+  header nav ul.horizontal li {
+    display: block;
+    float: left;
+    padding: 0 10px;
+    color: #f2e9e4;
+    text-decoration: none;
+    background-color: #4a4e69;
+    font-family: monospace;
+    font-size: 20px; }
+
+header section h1 {
+  color: #4a4e69;
+  font-style: italic;
+  font-size: 50px; }
+
+.main {
+  width: 70%; }
+  .main section p {
+    color: black; }
+  .main section h2 {
+    color: #4a4e69; }
+  .main section h3 {
+    color: #4a4e69; }
+  .main section.contacto {
+    color: black; }
+  .main section table {
+    color: black;
+    border: none;
+    border-spacing: 30px;
+    background-color: #c9ada7;
+    margin-left: 20%; }
+    .main section table td strong {
+      background-color: #c9ada7;
+      font-family: monospace; }
+    .main section table tr {
+      background-color: #c9ada7;
+      text-decoration: none;
+      font-family: monospace; }
+    .main section table td {
+      background-color: #c9ada7;
+      text-decoration: none;
+      font-family: monospace; }
+    .main section table td a {
+      background-color: #c9ada7;
+      text-decoration: none;
+      color: black;
+      font-style: italic;
+      font-family: monospace; }
+  .main .contenedor {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 1000px; }
+  .main .container-1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 80%; }
+  .main .info {
+    background-color: #e6adad;
+    border-radius: 10px;
+    height: 70px;
+    width: 800px;
+    color: black; }
+    .main .info b {
+      background-color: #e6adad;
+      color: black; }
+    .main .info ul {
+      background-color: #e6adad;
+      color: black;
+      border-radius: 10px;
+      width: auto; }
+    .main .info ul li {
+      background-color: #e6adad;
+      color: black;
+      border-radius: 10px;
+      width: auto; }
+  .main .puntos-turisticos {
+    background-color: #bae6ad;
+    border-radius: 15px;
+    color: black; }
+    .main .puntos-turisticos b {
+      background-color: #bae6ad;
+      color: black; }
+    .main .puntos-turisticos ul {
+      background-color: #bae6ad;
+      border-radius: 15px;
+      color: black; }
+    .main .puntos-turisticos ul li {
+      background-color: #bae6ad;
+      border-radius: 15px;
+      color: black; }
+  .main .gastronomia {
+    background-color: #adcee6;
+    border-radius: 15px;
+    width: 500px;
+    color: black; }
+    .main .gastronomia ul {
+      background-color: #adcee6;
+      color: black; }
+    .main .gastronomia ul li {
+      background-color: #adcee6;
+      color: black; }
+  .main .musica {
+    background-color: lightblue;
+    color: black; }
+  .main .imgGallery h2 {
+    text-align: center; }
+  .main .container-fotos {
+    /*  G R I D S  */
+    display: grid;
+    width: 90%;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: auto;
+    row-gap: 5px;
+    column-gap: 5px;
+    justify-content: center;
+    justify-items: center;
+    grid-template-areas: "foto-1 foto-2 foto-3"  "foto-4 foto-5 foto-6" "foto-7 foto-8 foto-9" "foto-10 foto-11 foto-12" "foto-13 foto-14 foto-15" "foto-16 foto-17 foto-18" "foto-19 foto-20 foto-21" "foto-22 foto-23 foto-24"; }
+  .main .foto {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 400px; }
+  .main .foto-1 {
+    grid-area: foto-1;
+    transition: transform 700ms 0s; }
+  .main .foto-2 {
+    grid-area: foto-2;
+    transition: transform 700ms 0s; }
+  .main .foto-3 {
+    grid-area: foto-3;
+    transition: transform 700ms 0s; }
+  .main .foto-4 {
+    grid-area: foto-4;
+    transition: transform 700ms 0s; }
+  .main .foto-5 {
+    grid-area: foto-5;
+    transition: transform 700ms 0s; }
+  .main .foto-6 {
+    grid-area: foto-6;
+    transition: transform 700ms 0s; }
+  .main .foto-7 {
+    grid-area: foto-7;
+    transition: transform 700ms 0s; }
+  .main .foto-8 {
+    grid-area: foto-8;
+    transition: transform 700ms 0s; }
+  .main .foto-9 {
+    grid-area: foto-9;
+    transition: transform 700ms 0s; }
+  .main .foto-10 {
+    grid-area: foto-10;
+    transition: transform 700ms 0s; }
+  .main .foto-11 {
+    grid-area: foto-11;
+    transition: transform 700ms 0s; }
+  .main .foto-12 {
+    grid-area: foto-12;
+    transition: transform 700ms 0s; }
+  .main .foto-13 {
+    grid-area: foto-13;
+    transition: transform 700ms 0s; }
+  .main .foto-14 {
+    grid-area: foto-14;
+    transition: transform 700ms 0s; }
+  .main .foto-15 {
+    grid-area: foto-15;
+    transition: transform 700ms 0s; }
+  .main .foto-16 {
+    grid-area: foto-16;
+    transition: transform 700ms 0s; }
+  .main .foto-17 {
+    grid-area: foto-17;
+    transition: transform 700ms 0s; }
+  .main .foto-18 {
+    grid-area: foto-18;
+    transition: transform 700ms 0s; }
+  .main .foto-19 {
+    grid-area: foto-19;
+    transition: transform 700ms 0s; }
+  .main .foto-20 {
+    grid-area: foto-20;
+    transition: transform 700ms 0s; }
+  .main .foto-21 {
+    grid-area: foto-21;
+    transition: transform 700ms 0s; }
+  .main .foto-22 {
+    grid-area: foto-22;
+    transition: transform 700ms 0s; }
+  .main .foto-23 {
+    grid-area: foto-23;
+    transition: transform 700ms 0s; }
+  .main .foto-24 {
+    grid-area: foto-24;
+    transition: transform 700ms 0s; }
+
+footer {
+  background-color: #4a4e69; }
+  footer a {
+    background-color: #4a4e69;
+    text-decoration: none;
+    color: #f2e9e4;
+    font-family: monospace; }
+
+@media screen and (max-width: 400px) {
+  .contenedor {
+    width: 100%;
+    margin-left: 2px; } }
